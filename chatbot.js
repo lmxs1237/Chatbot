@@ -25,10 +25,7 @@ $(document).ready(function(){
             
             var apigClient = apigClientFactory.newClient({
                 accessKey: 'AKIAJPNA77FOQV73WOVA',
-                // secretKey: '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',
-                // sessionToken: 'SESSION_TOKEN', //OPTIONAL: If you are using temporary credentials you must include the session token
-                // region: 'us-east-2' // OPTIONAL: The region where the API is deployed, by default this parameter is set to us-east-1
-                
+               
             });
             var body={
                     "question":txt
